@@ -29,7 +29,7 @@ export function subtract(a, b) {
  * @returns {Number}
  */
 export function multiply(a, b) {
-    return a - b
+    return a * b
 }
 
 /**
@@ -39,7 +39,7 @@ export function multiply(a, b) {
  * @returns {Number}
  */
 export function divide(a, b) {
-    return a - b
+    return a / b
 }
 
 /**
