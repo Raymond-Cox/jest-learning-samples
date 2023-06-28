@@ -3,6 +3,15 @@
  */
 
 /**
+ * Adds " World" to end of provided string.
+ * @param {String} str
+ * @returns {String}
+ */
+export function addWorldToString(str) {
+    return str + ' World'
+}
+
+/**
  * Adds two numbers together, returns the sum.
  * @param {Number} a
  * @param {Number} b
@@ -40,13 +49,4 @@ export function multiply(a, b) {
  */
 export function divide(a, b) {
     return a / b
-}
-
-/**
- * Adds " World" to end of provided string.
- * @param {String} string
- * @returns {String}
- */
-export function addWorldToString(string) {
-    return string + ' World'
 }
