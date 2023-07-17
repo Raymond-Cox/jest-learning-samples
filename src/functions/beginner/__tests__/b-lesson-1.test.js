@@ -9,9 +9,9 @@ describe('b-lesson-1', () => {
         })
     })
 
-    describe('subtract', () => {
+    describe('addWorldToString', () => {
         /**
-         * Write the test case for the subtract function here.
+         * Write the test case for the addWorldToString function here.
          */
     })
 
